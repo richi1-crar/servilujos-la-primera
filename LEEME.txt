@@ -1,0 +1,28 @@
+SERVILUJOS LA PRIMERA - VERSIÓN AMPLIADA
+
+PÁGINAS:
+- index.html: inicio y presentación de la marca.
+- tienda.html: catálogo de 200 referencias, filtros, buscador, orden, paginación, favoritos, vista rápida y carrito.
+- servicios.html: servicios automotrices.
+- nosotros.html: presentación de la marca.
+- contacto.html: datos y contacto.
+
+ARCHIVOS:
+- styles.css / pro.css: estilos.
+- site.js: navegación y año del footer.
+- store.js: catálogo de 200 productos, favoritos, carrito y pedido por WhatsApp.
+- assets/logo-servilujos.png: logo original.
+
+CÓMO ABRIR:
+1. Descomprime el ZIP.
+2. Abre la carpeta en Visual Studio Code.
+3. Ejecuta index.html con Live Server.
+
+CONFIGURAR WHATSAPP:
+En store.js reemplaza:
+const WHATSAPP_NUMBER = "573000000000";
+por el número real de Servilujos, con indicativo de país y solo números.
+En contacto.html también reemplaza el enlace wa.me de ejemplo.
+
+IMPORTANTE:
+Los 200 artículos, sus precios, imágenes, referencias y disponibilidad son datos de demostración para que puedas probar la tienda. Antes de publicarla, reemplaza esta información por el inventario real. Las imágenes de muestra son externas y requieren internet. El carrito se guarda en el navegador del visitante; no es un sistema de pagos ni inventario sincronizado con una base de datos.
